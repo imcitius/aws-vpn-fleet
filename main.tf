@@ -9,3 +9,9 @@ terraform {
     path    = "kv/tf/states/faceless-vpn-server-eucentral1"
   }
 }
+
+provider "cloudflare" {
+  version = "~> 2.0"
+  api_token = var.cloudflare_api_token
+}
+
