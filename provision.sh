@@ -1,3 +1,4 @@
 #!/bin/sh
-#cd ansible
-#ansible-playbook -i `cat ../private_ip.txt` --ssh-user centos --site-config ../inventory.yml
+./inventory.sh > ansible/hosts
+cd ansible
+ansible-playbook -i hosts playbooks/server.yml
