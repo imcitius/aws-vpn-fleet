@@ -8,4 +8,5 @@ module "vpn-server" {
   cloudflare_zone_id = var.cloudflare_zone_id
   vpn_ami_id = var.vpn_ami_id
   vpn_instance_type = var.vpn_instance_type
+  ansible_project = var.ansible_project
 }
