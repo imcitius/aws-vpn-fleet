@@ -10,4 +10,5 @@ module "vpn-server" {
   vpn_ami_id = var.vpn_ami_id
   vpn_instance_type = var.vpn_instance_type
   ansible_project = var.ansible_project
+  aws_sns_topic = var.aws_sns_topic
 }
