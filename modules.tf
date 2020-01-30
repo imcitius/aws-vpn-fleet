@@ -11,4 +11,17 @@ module "vpn-server" {
   vpn_instance_type = var.vpn_instance_type
   ansible_project = var.ansible_project
   aws_sns_topic = var.aws_sns_topic
+  tg_chat_id = var.tg_chat_id
+  tg_token = var.tg_token
+}
+
+module "notify_slack" {
+  source  = "terraform-aws-modules/notify-slack/aws"
+  version = "~> 2.0"
+
+  sns_topic_name = "slack-topic"
+
+  slack_webhook_url = "https://mattermost.jgit.me/hooks/x5gr964xdjbyjg6nm1n156kt1c"
+  slack_channel     = "sysadmin-alerts"
+  slack_username    = "AWS lambda"
 }

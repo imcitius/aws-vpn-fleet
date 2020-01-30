@@ -11,3 +11,5 @@ variable "vpn_ami_id" {}
 variable "vpn_instance_type" {}
 variable "ansible_project" {}
 variable "aws_sns_topic" {}
+variable "tg_chat_id" {}
+variable "tg_token" {}
