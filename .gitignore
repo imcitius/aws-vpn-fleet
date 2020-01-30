@@ -3,3 +3,4 @@
 *.txt
 *.tfstate
 ansible
+locals.tf
