@@ -13,7 +13,7 @@ module "vpn-server" {
   tg_chat_id = var.frankfurt["tg_chat_id"]
   tg_token = var.frankfurt["tg_token"]
 
-  aws_iam_role_iam_for_lambda = aws_iam_role.iam_for_lambda.arn
+  aws_iam_role_iam_for_lambda = aws_iam_role.lambda_logging.arn
 
 }
 
@@ -37,6 +37,6 @@ module "vpn-server-korea" {
   tg_chat_id = var.seoul["tg_chat_id"]
   tg_token = var.seoul["tg_token"]
 
-  aws_iam_role_iam_for_lambda = aws_iam_role.iam_for_lambda.arn
+  aws_iam_role_iam_for_lambda = aws_iam_role.lambda_logging.arn
 
 }
