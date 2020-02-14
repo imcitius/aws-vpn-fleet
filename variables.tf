@@ -26,3 +26,4 @@ variable "paris" {}
 variable "stockholm" {}
 variable "saopaulo" {}
 variable "bahrain" {}
+variable "ssh_public_key" {}

@@ -4,6 +4,7 @@ module "vpn-server" {
   servers_count = var.frankfurt["servers_count"]
   aws_region = var.frankfurt["aws_region"]
   ssh_key_name = var.frankfurt["ssh_key_name"]
+  ssh_public_key = var.ssh_public_key
   dns_vpn_subdomain = var.frankfurt["dns_vpn_subdomain"]
   dns_global_domain = var.frankfurt["dns_global_domain"]
   cloudflare_zone_id = var.frankfurt["cloudflare_zone_id"]
@@ -28,6 +29,7 @@ module "vpn-server-korea" {
   servers_count = var.seoul["servers_count"]
   aws_region = var.seoul["aws_region"]
   ssh_key_name = var.seoul["ssh_key_name"]
+  ssh_public_key = var.ssh_public_key
   dns_vpn_subdomain = var.seoul["dns_vpn_subdomain"]
   dns_global_domain = var.seoul["dns_global_domain"]
   cloudflare_zone_id = var.seoul["cloudflare_zone_id"]
@@ -52,6 +54,7 @@ module "vpn-server-hongkong" {
   servers_count = var.hongkong["servers_count"]
   aws_region = var.hongkong["aws_region"]
   ssh_key_name = var.hongkong["ssh_key_name"]
+  ssh_public_key = var.ssh_public_key
   dns_vpn_subdomain = var.hongkong["dns_vpn_subdomain"]
   dns_global_domain = var.hongkong["dns_global_domain"]
   cloudflare_zone_id = var.hongkong["cloudflare_zone_id"]
@@ -77,6 +80,7 @@ module "vpn-server-mumbai" {
   servers_count = var.mumbai["servers_count"]
   aws_region = var.mumbai["aws_region"]
   ssh_key_name = var.mumbai["ssh_key_name"]
+  ssh_public_key = var.ssh_public_key
   dns_vpn_subdomain = var.mumbai["dns_vpn_subdomain"]
   dns_global_domain = var.mumbai["dns_global_domain"]
   cloudflare_zone_id = var.mumbai["cloudflare_zone_id"]
@@ -101,6 +105,7 @@ module "vpn-server-sydney" {
   servers_count = var.sydney["servers_count"]
   aws_region = var.sydney["aws_region"]
   ssh_key_name = var.sydney["ssh_key_name"]
+  ssh_public_key = var.ssh_public_key
   dns_vpn_subdomain = var.sydney["dns_vpn_subdomain"]
   dns_global_domain = var.sydney["dns_global_domain"]
   cloudflare_zone_id = var.sydney["cloudflare_zone_id"]
@@ -124,6 +129,7 @@ module "vpn-server-tokyo" {
 
   servers_count = var.tokyo["servers_count"]
   aws_region = var.tokyo["aws_region"]
+  ssh_public_key = var.ssh_public_key
   ssh_key_name = var.tokyo["ssh_key_name"]
   dns_vpn_subdomain = var.tokyo["dns_vpn_subdomain"]
   dns_global_domain = var.tokyo["dns_global_domain"]
@@ -149,6 +155,7 @@ module "vpn-server-ireland" {
   servers_count = var.ireland["servers_count"]
   aws_region = var.ireland["aws_region"]
   ssh_key_name = var.ireland["ssh_key_name"]
+  ssh_public_key = var.ssh_public_key
   dns_vpn_subdomain = var.ireland["dns_vpn_subdomain"]
   dns_global_domain = var.ireland["dns_global_domain"]
   cloudflare_zone_id = var.ireland["cloudflare_zone_id"]
@@ -173,6 +180,7 @@ module "vpn-server-london" {
   servers_count = var.london["servers_count"]
   aws_region = var.london["aws_region"]
   ssh_key_name = var.london["ssh_key_name"]
+  ssh_public_key = var.ssh_public_key
   dns_vpn_subdomain = var.london["dns_vpn_subdomain"]
   dns_global_domain = var.london["dns_global_domain"]
   cloudflare_zone_id = var.london["cloudflare_zone_id"]
@@ -197,6 +205,7 @@ module "vpn-server-paris" {
   servers_count = var.paris["servers_count"]
   aws_region = var.paris["aws_region"]
   ssh_key_name = var.paris["ssh_key_name"]
+  ssh_public_key = var.ssh_public_key
   dns_vpn_subdomain = var.paris["dns_vpn_subdomain"]
   dns_global_domain = var.paris["dns_global_domain"]
   cloudflare_zone_id = var.paris["cloudflare_zone_id"]
@@ -221,6 +230,7 @@ module "vpn-server-stockholm" {
   servers_count = var.stockholm["servers_count"]
   aws_region = var.stockholm["aws_region"]
   ssh_key_name = var.stockholm["ssh_key_name"]
+  ssh_public_key = var.ssh_public_key
   dns_vpn_subdomain = var.stockholm["dns_vpn_subdomain"]
   dns_global_domain = var.stockholm["dns_global_domain"]
   cloudflare_zone_id = var.stockholm["cloudflare_zone_id"]
@@ -245,6 +255,7 @@ module "vpn-server-saopaulo" {
   servers_count = var.saopaulo["servers_count"]
   aws_region = var.saopaulo["aws_region"]
   ssh_key_name = var.saopaulo["ssh_key_name"]
+  ssh_public_key = var.ssh_public_key
   dns_vpn_subdomain = var.saopaulo["dns_vpn_subdomain"]
   dns_global_domain = var.saopaulo["dns_global_domain"]
   cloudflare_zone_id = var.saopaulo["cloudflare_zone_id"]
@@ -269,6 +280,7 @@ module "vpn-server-bahrain" {
   servers_count = var.bahrain["servers_count"]
   aws_region = var.bahrain["aws_region"]
   ssh_key_name = var.bahrain["ssh_key_name"]
+  ssh_public_key = var.ssh_public_key
   dns_vpn_subdomain = var.bahrain["dns_vpn_subdomain"]
   dns_global_domain = var.bahrain["dns_global_domain"]
   cloudflare_zone_id = var.bahrain["cloudflare_zone_id"]
