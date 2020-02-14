@@ -27,3 +27,4 @@ variable "stockholm" {}
 variable "saopaulo" {}
 variable "bahrain" {}
 variable "ssh_public_key" {}
+variable "ansible_project" {}
