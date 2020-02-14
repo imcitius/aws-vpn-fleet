@@ -16,3 +16,13 @@
 
 variable "frankfurt" {}
 variable "seoul" {}
+variable "hongkong" {}
+variable "mumbai" {}
+variable "sydney" {}
+variable "tokyo" {}
+variable "ireland" {}
+variable "london" {}
+variable "paris" {}
+variable "stockholm" {}
+variable "saopaulo" {}
+variable "bahrain" {}
