@@ -1,6 +1,6 @@
 *.tfvars
 *.terraform
-*.txt
+vpn_server*.txt
 *.tfstate
 ansible
 locals.tf
