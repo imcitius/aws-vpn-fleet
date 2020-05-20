@@ -1,9 +1,24 @@
-#Frankfurt
 provider "aws" {
   region = "eu-central-1"
 }
 
 provider "cloudflare" {
+  version = "~> 2.0"
+  api_token = var.frankfurt["cloudflare_api_token"]
+}
+
+
+
+
+
+#Frankfurt
+provider "aws" {
+  alias = "eu-central-1"
+  region = "eu-central-1"
+}
+
+provider "cloudflare" {
+  alias = "eu-central-1"
   version = "~> 2.0"
   api_token = var.frankfurt["cloudflare_api_token"]
 }

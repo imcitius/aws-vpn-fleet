@@ -1,5 +1,10 @@
-module "vpn-server" {
+module "vpn-server-frankfurt" {
   source  = "git@jgit.me:infrastructure/terraform/aws-vpn-server.module.git?ref=centos7"
+
+  providers = {
+    aws = aws.eu-central-1
+    cloudflare = cloudflare.eu-central-1
+  }
 
   servers_count = var.frankfurt["servers_count"]
   aws_region = var.frankfurt["aws_region"]
