@@ -1,5 +1,5 @@
 module "vpn-server-frankfurt" {
-  source  = "https://github.com/imcitius/aws-vpn-server.git?ref=centos7"
+  source  = "https://github.com/imcitius/aws-vpn-server-module.git?ref=centos7"
 
   providers = {
     aws = aws.eu-central-1
@@ -26,7 +26,7 @@ module "vpn-server-frankfurt" {
 
 
 module "vpn-server-ireland" {
-  source  = "https://github.com/imcitius/aws-vpn-server.git?ref=centos7"
+  source  = "https://github.com/imcitius/aws-vpn-server-module.git?ref=centos7"
 
   providers = {
     aws = aws.eu-west-1
@@ -51,7 +51,7 @@ module "vpn-server-ireland" {
 }
 
 module "vpn-server-london" {
-  source  = "https://github.com/imcitius/aws-vpn-server.git?ref=centos7"
+  source  = "https://github.com/imcitius/aws-vpn-server-module.git?ref=centos7"
 
   providers = {
     aws = aws.eu-west-2
@@ -76,7 +76,7 @@ module "vpn-server-london" {
 }
 
 module "vpn-server-paris" {
-  source  = "https://github.com/imcitius/aws-vpn-server.git?ref=centos7"
+  source  = "https://github.com/imcitius/aws-vpn-server-module.git?ref=centos7"
 
   providers = {
     aws = aws.eu-west-3
@@ -101,7 +101,7 @@ module "vpn-server-paris" {
 }
 
 module "vpn-server-stockholm" {
-  source  = "https://github.com/imcitius/aws-vpn-server.git?ref=centos7"
+  source  = "https://github.com/imcitius/aws-vpn-server-module.git?ref=centos7"
 
   providers = {
     aws = aws.eu-north-1
@@ -126,7 +126,7 @@ module "vpn-server-stockholm" {
 }
 
 module "vpn-server-saopaulo" {
-  source  = "https://github.com/imcitius/aws-vpn-server.git?ref=centos7"
+  source  = "https://github.com/imcitius/aws-vpn-server-module.git?ref=centos7"
 
   providers = {
     aws = aws.sa-east-1
@@ -151,7 +151,7 @@ module "vpn-server-saopaulo" {
 }
 
 module "vpn-server-bahrain" {
-  source  = "https://github.com/imcitius/aws-vpn-server.git?ref=centos7"
+  source  = "https://github.com/imcitius/aws-vpn-server-module.git?ref=centos7"
 
   providers = {
     aws = aws.me-south-1
