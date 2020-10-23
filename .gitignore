@@ -3,5 +3,4 @@
 *.tfplan
 vpn_server*.txt
 *.tfstate
-ansible
 locals.tf
