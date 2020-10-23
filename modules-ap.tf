@@ -8,7 +8,7 @@ module "vpn-server-korea" {
 
   servers_count = var.seoul["servers_count"]
   aws_region = var.seoul["aws_region"]
-  availability_zone = var.frankfurt["availability_zone"]
+  availability_zone = var.seoul["availability_zone"]
   ssh_key_name = var.seoul["ssh_key_name"]
   ssh_public_key = var.ssh_public_key
   dns_vpn_subdomain = var.seoul["dns_vpn_subdomain"]
@@ -109,7 +109,7 @@ module "vpn-server-tokyo" {
 
   servers_count = var.tokyo["servers_count"]
   aws_region = var.tokyo["aws_region"]
-  availability_zone = var.frankfurt["availability_zone"]
+  availability_zone = var.tokyo["availability_zone"]
   ssh_public_key = var.ssh_public_key
   ssh_key_name = var.tokyo["ssh_key_name"]
   dns_vpn_subdomain = var.tokyo["dns_vpn_subdomain"]
