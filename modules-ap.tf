@@ -1,5 +1,5 @@
 module "vpn-server-korea" {
-  source  = "https://github.com/imcitius/aws-vpn-server-module.git?ref=centos7"
+  source  = "git@github.com:imcitius/aws-vpn-server-module.git?ref=centos7"
 
   providers = {
     aws = aws.ap-northeast-2
@@ -25,7 +25,7 @@ module "vpn-server-korea" {
 }
 
 module "vpn-server-hongkong" {
-  source  = "https://github.com/imcitius/aws-vpn-server-module.git?ref=centos7"
+  source  = "git@github.com:imcitius/aws-vpn-server-module.git?ref=centos7"
 
   providers = {
     aws = aws.ap-east-1
@@ -50,7 +50,7 @@ module "vpn-server-hongkong" {
 }
 
 module "vpn-server-mumbai" {
-  source  = "https://github.com/imcitius/aws-vpn-server-module.git?ref=centos7"
+  source  = "git@github.com:imcitius/aws-vpn-server-module.git?ref=centos7"
 
   providers = {
     aws = aws.ap-south-1
@@ -75,7 +75,7 @@ module "vpn-server-mumbai" {
 }
 
 module "vpn-server-sydney" {
-  source  = "https://github.com/imcitius/aws-vpn-server-module.git?ref=centos7"
+  source  = "git@github.com:imcitius/aws-vpn-server-module.git?ref=centos7"
 
   providers = {
     aws = aws.ap-southeast-2
@@ -100,7 +100,7 @@ module "vpn-server-sydney" {
 }
 
 module "vpn-server-tokyo" {
-  source  = "https://github.com/imcitius/aws-vpn-server-module.git?ref=centos7"
+  source  = "git@github.com:imcitius/aws-vpn-server-module.git?ref=centos7"
 
   providers = {
     aws = aws.ap-northeast-1

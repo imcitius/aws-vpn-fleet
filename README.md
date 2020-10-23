@@ -5,5 +5,6 @@ Cloudflare DNS records, monitoring and alerting via Amazon CloudWatch, Amazon SN
 Each server will be configured with IPSec / OpenVPN servers and a RADIUS server to auth users.
 RADIUS server needs REST backend to auth users via.
 
+Please do `git submodule init && git submodule update` to get Ansible code.
 
 Terraform 0.12, Ansible 2.8+
