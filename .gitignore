@@ -4,3 +4,4 @@
 vpn_server*.txt
 *.tfstate
 locals.tf
+!common.auto.tfvars

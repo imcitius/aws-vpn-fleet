@@ -7,5 +7,7 @@ RADIUS server needs REST backend to auth users via.
 
 Please do `git submodule init && git submodule update` to get Ansible code.
 Also fix `terraform {backend}` in main.tf to suite your needs (or just delete the file to use local state).
+Then provide correct variables (see example.auto.tfvars), and run:
+`terraform init && terraform plan -var-file=example.auto.tfvars`
 
 Terraform 0.12, Ansible 2.8+
