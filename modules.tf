@@ -8,7 +8,6 @@ module "vpn-server-frankfurt" {
 
   servers_count = var.frankfurt["servers_count"]
   aws_region = var.frankfurt["aws_region"]
-  availability_zone = var.frankfurt["availability_zone"]
   ssh_key_name = var.frankfurt["ssh_key_name"]
   ssh_public_key = var.ssh_public_key
   dns_vpn_subdomain = var.frankfurt["dns_vpn_subdomain"]
